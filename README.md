@@ -4,4 +4,4 @@ The repository covers basic algorithmic techniques and ideas for computational p
 You will also find in this repository an example of how to sort and search data, how to break a large problem into pieces and solve them recursively, Everything is going to be done in c++...
 Note: this is part of my self-learning throught courses I took from course platform and Edx related to Data Science, So without more ado, let's dive into the awesome world of C++!!!!!!
 
-By; Casch
+By: Casch
