@@ -13,6 +13,9 @@
 #include<vector>
 #include<array>
 
+//IDE integrated development enviroment
+//Compile my code
+//g++ -std=c++14 -o temp sort.cpp
 
 using namespace std;
 
@@ -21,11 +24,11 @@ bool compare_function(int i, int j);
 
 int main()
 {
-  int a[5] = {1,5,8,4,2}; 
+  int a[5] = {1,5,8,4,2};
 
   cout<<is_sorted(a, a+5);
   /* prints 0 , Boolean false  */
-  
+
     for(auto i=0;i<sizeof(a);i++)
     {
         std::cout<<a[i]<<std::endl;
@@ -33,7 +36,7 @@ int main()
     }
 
     std::cout<<"================"<<std::endl;
-    std::array<int,5> temp = {1,5,8,4,2}; 
+    std::array<int,5> temp = {1,5,8,4,2};
 
 
     cout<<is_sorted(temp.begin(), temp.end());
@@ -62,13 +65,13 @@ int main()
     /* sorts the vector v1 */
          std::cout<<"================"<<std::endl;
     std::cout<<is_sorted(v1.begin() , v1.end())<<std::endl;
-    /*  prints 1 , as vector v1 is sorted */   
+    /*  prints 1 , as vector v1 is sorted */
      std::cout<<"================"<<std::endl;
     for(std::vector<int>::iterator it=v1.begin();it!=v1.end();it++)
     {
     std::cout<<*it<<std::endl;
     //if(i==4) break;
-    } 
+    }
 }
 
 
